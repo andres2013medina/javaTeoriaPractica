@@ -105,8 +105,6 @@ public class TestLocalDateTime {
         period = Period.ofDays(5);
         System.out.println(period);
 
-        System.out.println("test");
-
     }
 
     public static boolean validarFecha(int anio, int mes, int dia) {
