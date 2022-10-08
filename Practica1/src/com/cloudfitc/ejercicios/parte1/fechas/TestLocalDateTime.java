@@ -115,4 +115,13 @@ public class TestLocalDateTime {
             return false;
         }
     }
+
+    public static boolean validarFecha2(String fecha) {
+        try {
+            LocalDate.parse(fecha);
+            return true;
+        } catch (DateTimeException ex) {
+            return false;
+        }
+    }
 }
