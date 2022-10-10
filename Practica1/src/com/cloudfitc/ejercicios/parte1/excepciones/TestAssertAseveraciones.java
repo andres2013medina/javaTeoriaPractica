@@ -13,6 +13,7 @@ public class TestAssertAseveraciones {
         System.out.println(precioFinal2);
 
         /*
+         * Intellij -> RUN : EDIT CONFIGURATION : ADD VM OPTIONS
          * java -ea TestAssertAseveraciones ACTIVA
          * java -da TestAssertAseveraciones DESACTIVA
          * */
