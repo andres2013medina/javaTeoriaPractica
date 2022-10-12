@@ -40,8 +40,8 @@ public class Producto implements Comparable<Producto> {
 
     @Override
     public int compareTo(Producto producto) {
-//        return this.codigo - producto.codigo;
-        return this.nombre.compareTo(producto.nombre);
+        return this.codigo - producto.codigo;
+//        return this.nombre.compareTo(producto.nombre);
     }
 
     @Override
