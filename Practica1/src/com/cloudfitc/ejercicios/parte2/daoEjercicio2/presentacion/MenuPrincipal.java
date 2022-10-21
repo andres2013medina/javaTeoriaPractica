@@ -1,7 +1,7 @@
 package com.cloudfitc.ejercicios.parte2.daoEjercicio2.presentacion;
 
 import com.cloudfitc.ejercicios.parte2.daoEjercicio2.dto.NotaDTO;
-import com.cloudfitc.ejercicios.parte2.daoEjercicio2.servicio.ServicioNotas;
+import com.cloudfitc.ejercicios.parte2.daoEjercicio2.negocio.servicio.ServicioNotas;
 
 import java.time.LocalDate;
 import java.util.Arrays;
